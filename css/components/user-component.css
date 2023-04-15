@@ -12,7 +12,8 @@
     width:70px;
     height: 70px;
     border-radius:30px;
-    margin-right:25px;    
+    margin-right:25px;
+    margin-bottom:10px;    
 }
 
 .user-component__title{
@@ -40,19 +41,6 @@
 
 .user-component__title--not-bold{
     font-size:400;
-}
-
-.friends-screen__channel{
-    margin-top:25px;
-    border-top:1px solid rgba(0,0,0,0.1);
-    padding-top:15px;
-}
-
-.friends-screen__channel-header{
-    margin-bottom:25px;
-    display:flex;
-    justify-content:space-between;
-    color:rgba(0,0,0,0.5);
 }
 
 .user-component__column:last-child{

@@ -1,0 +1,7 @@
+.chats-user-component__avatar{
+    width:75px;
+    height:75px;
+    border-radius:30px;
+    margin-right:25px;
+    margin-bottom:10px; 
+}
