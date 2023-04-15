@@ -1,7 +1,14 @@
-.chats-user-component__avatar{
+.chats-user-component__avatar   {
     width:75px;
     height:75px;
     border-radius:30px;
     margin-right:25px;
     margin-bottom:10px; 
+}
+
+.user-component-chat__time  {
+    display:flex;
+    width:100%;
+    box-sizing: border-box;
+    justify-content:space-between;
 }
