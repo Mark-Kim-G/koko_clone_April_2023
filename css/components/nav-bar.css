@@ -24,7 +24,7 @@
     bottom:15px;
 }
 
-.nav__notification__ellipsis {
+.nav__notification__ellipsis .find__notification__cog--ellipsis {
     background-color: tomato;
     border-radius:2.5px;
     width:5px;
