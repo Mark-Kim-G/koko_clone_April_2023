@@ -1,0 +1,13 @@
+.more__user-row{
+display:flex;
+}
+
+.more__user__avatar-chat{
+    display:flex;
+}
+
+.more__user-avatar{
+    display:flex;
+    height:150px;
+    width:155px;
+}
