@@ -8,6 +8,36 @@ display:flex;
 
 .more__user-avatar{
     display:flex;
-    height:150px;
-    width:155px;
+    height:100px;
+    width:100px;
+    border-radius:55px;
+}
+
+.more__user-row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more__user-avatar-name span{
+    display:flex;
+    color:var(--grey);
+    margin:20px;
+}
+
+.more__user-avatar-name h1:first-child {
+    font-size:25px;
+    font-weight:bolder;
+    margin:13px 20px;
+}
+
+.more__user__avatar-messageIcon{
+    display:flex;
+    align-items: center;
+}
+
+.more__icons-row{
+    display:flex;
+    margin-top: 43px;
+    justify-content: space-between;
 }
