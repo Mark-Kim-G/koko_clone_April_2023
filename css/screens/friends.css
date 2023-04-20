@@ -8,11 +8,11 @@
 }
 
 #friends-display-link i {
-    color: rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.4);
 }
 
 .friends-screen {
-    padding:var(--horizontal-space);
+     padding: 0px var(--horizontal-space);
 }
 
 .friends-screen__channel{
