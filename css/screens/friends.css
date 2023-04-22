@@ -27,3 +27,13 @@
     justify-content:space-between;
     color:rgba(0,0,0,0.5);
 }
+
+.friend__user-component__title{
+    font-size:25px;
+    font-weight:bolder;
+}
+
+.friend__user-component__subtitle{
+    color:var(--grey);
+    margin:13px 0px;
+}
