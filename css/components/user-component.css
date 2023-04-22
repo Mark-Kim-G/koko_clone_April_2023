@@ -6,6 +6,8 @@
 .user-component__column:first-child{
     display:flex;
     align-items:center;
+    font-size:12px;
+    /* color:var(--grey); */
 }
 
 .user-component__avatar{
@@ -18,16 +20,16 @@
 
 .user-component__title{
     font-weight:600;
-    font-size:22px;
+    font-size:15px;
     display:flex;
 }
 
 .user-component__subtitle{
     display:flex;
     margin-top: 8px;
-    color:#2e363e;
-    /* color:rgba(0,0,0,0.5); */
-    font-size:17px;
+    color:var(--grey);
+    font-size:10px;
+    font-weight:bolder;
 }
 
 .user-component__avatar--xl{
