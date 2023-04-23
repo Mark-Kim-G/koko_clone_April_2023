@@ -49,20 +49,32 @@
     padding: 10px;
 }
 
+.more__icons__icon i{
+    margin-bottom:15px;
+}
+
 .more__icons__second-row{
     display:flex;
     flex-wrap:wrap;
     margin:10px;
 }
 
-.more__icons__seonc__row-icons{
+.more__icons__second__row-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25%;
     padding: 10px;
     box-sizing: border-box;
-    }
+}
+
+.more__icons__second__row-icons i{
+    margin-bottom:15px;
+}
+
+.more__icons__second__row-icons h1{
+    color:var(--grey);
+}
 
 .more__suggestions-title{
     margin:25px;

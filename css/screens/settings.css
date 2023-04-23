@@ -16,3 +16,7 @@
 .settings__setting-column:last-child{
     opacity:0.5;
 }
+
+.alt-header__title{
+    font-weight:bolder;
+}

@@ -11,10 +11,20 @@
     font-weight:600px;
 }
 
+.alt-header__column{
+width:33%;
+}
+
 .alt-header__column:first-child{
     margin-right:auto;
 }
 
+.alt-header__column h1{
+    text-align:center;
+}
+
 .alt-header__column:last-child{
     margin-left:auto;
+    display:flex;
+    justify-content: end;
 }
