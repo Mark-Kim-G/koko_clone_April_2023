@@ -133,3 +133,21 @@
     margin-bottom:30px;
 }
 
+@keyframes heartBeat {
+    0%{
+        color:white;
+        transform:none;
+    }
+    50%{
+        color:tomato;
+        transform:scale(5);
+    }
+    100%{
+        color:white;
+    }
+}
+
+.find__openchat__post__heart:hover i {
+    will-change:transform;
+    animation: heartBeat 1s linear infinite;
+}
