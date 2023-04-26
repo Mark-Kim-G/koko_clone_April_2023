@@ -1,0 +1,119 @@
+.more__user__avatar-chat    {
+    display:flex;
+}
+
+.more__user-avatar  {
+    display:flex;
+    height:80px;
+    width:80px;
+    border-radius:55px;
+}
+
+.more__user-row {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more__user-avatar-name span    {
+    display:flex;
+    color:var(--grey);
+    margin:20px;
+}
+
+.more__user-avatar-name h1:first-child {
+    font-size:25px;
+    font-weight:bolder;
+    margin:13px 20px;
+}
+
+.more__user__avatar-messageIcon {
+    display:flex;
+    align-items: center;
+}
+
+.more__icons__first-row {
+    display:flex;
+    flex-wrap: wrap;
+    margin:10px;
+}
+
+.more__icons__icon {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:var(--grey);
+    align-items: center;
+    width:25%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.more__icons__icon i{
+    margin-bottom:15px;
+}
+
+.more__icons__second-row{
+    display:flex;
+    flex-wrap:wrap;
+    margin:10px;
+}
+
+.more__icons__second__row-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.more__icons__second__row-icons i{
+    margin-bottom:15px;
+}
+
+.more__icons__second__row-icons h1{
+    color:var(--grey);
+}
+
+.more__suggestions-title{
+    margin:25px;
+}
+
+.more__suggestions-title h1{
+    font-weight:bolder;
+}
+
+.more__suggestions-column{
+    display:flex;
+}
+
+.more__suggestions-icons{
+    display:flex;
+    width:50px;
+    height:50px;
+    background-color:#fae100;
+    border-radius:15px;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+.more__suggestions__first-column{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* margin-right:35px; */
+    width:25%;
+    box-sizing:border-box;
+}
+
+.more__suggestions__first-column span{
+    color:var(--grey);
+    font-size:12px;
+    font-weight:1000;
+}
+
+.more__suggestions-icons i{
+    color:white;
+}
