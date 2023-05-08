@@ -4,12 +4,12 @@
 
 /* Components */
 @import "components/status-bar.css";
-@import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
